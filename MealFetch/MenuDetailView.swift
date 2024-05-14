@@ -125,10 +125,6 @@ struct MenuDetailView: View {
         .shadow(radius: 5)
         .frame(maxWidth: .infinity, alignment: .leading)
     }
-    
-    private var recipeBackground: Color {
-         colorScheme == .dark ? darkModeRecipeBackground : lightModeRecipeBackground
-     }
 }
 
 struct DetailRow: View {
